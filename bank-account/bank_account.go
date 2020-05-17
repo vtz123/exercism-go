@@ -46,6 +46,7 @@ func (a *Account) Balance() (balance int64, ok bool) {
 		return 0, false
 	}
 
+	
 	return money, true
 }
 
